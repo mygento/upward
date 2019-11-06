@@ -1,0 +1,45 @@
+{
+  "name": "@mygento/upward",
+  "version": "1.0.0alpha1",
+  "description": "Magento Unified Progressive Web App Server",
+  "main": "./lib/index.js",
+  "bin": {
+    "upward-server": "./bin/server"
+  },
+  "license": "MIT",
+  "directories": {
+    "lib": "./lib",
+    "bin": "./bin"
+  },
+  "scripts": {
+    "start": "./bin/server",
+    "dev": "DEBUG=upward:* nodemon ./bin/server"
+  },
+  "repository": "github:mygento/upward",
+  "keywords": [
+    "magento",
+    "mygento",
+    "graphql",
+    "pwa",
+    "express",
+    "upward"
+  ],
+  "author": "Mygento Team",
+  "dependencies": {
+    "debug": "~4.1.1",
+    "dotenv": "^8.2.0",
+    "http-proxy-middleware": "^0.20.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
+  },
+  "peerDependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": ">=10.x",
+    "yarn": ">=1.12.0"
+  }
+}

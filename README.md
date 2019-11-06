@@ -1,2 +1,1 @@
-# upward
-Magento Unified Progressive Web App Proxy
+# Magento Unified Progressive Web App Proxy
