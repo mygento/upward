@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 require('dotenv').config();
-const config = {bind: true};
-require('../lib/createServer.js')(config).catch(e => {
-    console.error(e.stack);
-    process.exit(e.errno || 1);
+
+const { app } = require('../lib/server');
+app().then(() => {
+ console.log(`🚀 Server ready`);
 });

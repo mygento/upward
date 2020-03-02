@@ -1,6 +1,6 @@
 {
   "name": "@mygento/upward",
-  "version": "1.0.0alpha1",
+  "version": "1.0.0beta1",
   "description": "Magento Unified Progressive Web App Server",
   "main": "./lib/index.js",
   "bin": {
@@ -26,20 +26,26 @@
   ],
   "author": "Mygento Team",
   "dependencies": {
+    "@apollo/client": "^3.0.0-beta.38",
+    "@koa/router": "^8.0.8",
+    "apollo-link-persisted-queries": "^0.2.2",
     "debug": "~4.1.1",
     "dotenv": "^8.2.0",
-    "http-proxy-middleware": "^0.20.0",
-    "morgan": "^1.9.1"
+    "graphql": "^14.6.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-mount": "^4.0.0",
+    "koa-response-time": "^2.1.0",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^1.19.4"
+    "nodemon": "^2.0.2"
   },
-  "peerDependencies": {
-    "express": "^4.17.1"
-  },
+  "peerDependencies": {},
   "engines": {
-    "node": ">=10.x",
+    "node": ">=12.x",
     "yarn": ">=1.12.0"
   }
 }
