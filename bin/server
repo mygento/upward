@@ -2,6 +2,11 @@
 require('dotenv').config();
 
 const { app } = require('../lib/server');
+if (process.env.MAGE_HOST === undefined) {
+ console.error('Empty MAGE_HOST env');
+ process.exit(0);
+}
+
 app().then(() => {
- console.log(`🚀 Server ready`);
+ console.log(`🚀 Server ready, proxy to ${process.env.MAGE_HOST}`);
 });
