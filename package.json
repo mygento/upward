@@ -38,6 +38,7 @@
     "koa-logger": "^3.2.1",
     "koa-mount": "^4.0.0",
     "koa-response-time": "^2.1.0",
+    "lru-cache": "^5.1.1",
     "node-fetch": "^2.6.0",
     "object-hash": "^2.0.3"
   },
