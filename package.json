@@ -13,8 +13,7 @@
   },
   "scripts": {
     "start": "./bin/server",
-    "dev": "MAGE_HOST=https://shop.salon.mygento.net DEBUG=upward:* nodemon ./bin/server",
-    "dev2": "MAGE_HOST=https://shop.salonsecret.ru/warp DEBUG=upward:* nodemon ./bin/server"
+    "dev": "DEBUG=upward:* nodemon ./bin/server"
   },
   "repository": "github:mygento/upward",
   "keywords": [
@@ -33,6 +32,7 @@
     "debug": "~4.1.1",
     "dotenv": "^8.2.0",
     "graphql": "^14.6.0",
+    "ioredis": "^4.17.1",
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.3.0",
     "koa-json": "^2.0.2",
@@ -41,8 +41,7 @@
     "koa-response-time": "^2.1.0",
     "lru-cache": "^5.1.1",
     "node-fetch": "^2.6.0",
-    "object-hash": "^2.0.3",
-    "redis": "^3.0.2"
+    "object-hash": "^2.0.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
