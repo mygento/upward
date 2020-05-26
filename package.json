@@ -32,6 +32,7 @@
     "debug": "~4.1.1",
     "dotenv": "^8.2.0",
     "graphql": "^14.6.0",
+    "ioredis": "^4.17.1",
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.3.0",
     "koa-json": "^2.0.2",
