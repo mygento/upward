@@ -26,7 +26,7 @@
   ],
   "author": "Mygento Team",
   "dependencies": {
-    "@apollo/client": "^3.0.0-beta.41",
+    "@apollo/client": "^3.0.0-beta.50",
     "@koa/router": "^8.0.8",
     "amqplib": "^0.5.6",
     "apollo-link-persisted-queries": "^0.2.2",
@@ -34,7 +34,7 @@
     "dotenv": "^8.2.0",
     "graphql": "^14.6.0",
     "ioredis": "^4.17.1",
-    "koa": "^2.11.0",
+    "koa": "^2.12.0",
     "koa-bodyparser": "^4.3.0",
     "koa-json": "^2.0.2",
     "koa-logger": "^3.2.1",
@@ -45,7 +45,7 @@
     "object-hash": "^2.0.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.4"
   },
   "peerDependencies": {},
   "engines": {
